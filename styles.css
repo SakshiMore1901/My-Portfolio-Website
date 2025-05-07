@@ -398,6 +398,67 @@ img {
   color: #666;
 }
 
+/* Work Experience */
+.work__exp__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  justify-items: center;
+
+  /* transform: translateX(30px); Shift entire section to the right */
+}
+/* 
+.work__exp__image {
+  transform: translateX(120px); /* Shift image to the right */
+/*} */
+
+.work__exp__image img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.work__exp__img {
+  width: 100%;
+  max-width: 500px; /* Slightly wider cards */
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+}
+
+
+.work__exp__img img {
+  width: 100%;
+  height: 260px; /* Reduced image height slightly */
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+
+.work__exp__content {
+  padding: 1rem;
+}
+
+.work__exp__title {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.work__exp__desc {
+  font-size: 0.95rem;
+  color: #666;
+}
+
 
 /* ===== CONTACT =====*/
 .contact__input {
