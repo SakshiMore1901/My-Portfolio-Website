@@ -420,6 +420,8 @@ img {
   height: 350px;
   object-fit: cover;
   border-radius: 10px;
+  transform: translateY(140px); /* Shift entire section to the right */
+
 }
 
 
